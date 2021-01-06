@@ -30,36 +30,116 @@ nav > ul > li > a {
 }
 nav > ul > li:hover {
   border-radius: 5px;
-  background-image:linear-gradient(45deg, whitesmoke, white);
-  
+  background-image: linear-gradient(45deg, whitesmoke, white);
 }
 /* section part styling */
-.intropart{
-    width: 100%0;
-    height: 500px;
-   
+/* intro part  */
+.intropart,
+.about-part {
+  width: 100%;
+  height: 500px;
+  align-items: baseline;
+  border: 1px solid;
+}
+.left-section {
+  width: 50%;
+  text-align: left;
+  float: left;
+  margin-top: 100px;
+  /*  */
+}
+.left-section > p {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 50px;
+}
+.left-section > a {
+  margin-top: 50px;
+}
+.right-section {
+  width: 50%;
+  height: 500px;
+  float: left;
+}
+.right-section > img {
+  max-width: 100%;
+  max-height: 100%;
+  margin-left: 50px;
+}
 
+h1 {
+  /* font-family: 'Roboto', sans-serif; */
+  margin: 0;
+  padding: 0;
+  font-family: "Anton", sans-serif;
+  font-size: 3rem;
+  letter-spacing: 4px;
 }
-.left-section{
-    width: 50%;
-    float: left;
-    text-align: left; 
+#orange {
+  color: rgb(245, 112, 63);
 }
-.right-section{
-    width: 50%;
-    height: 500px;
-    float: left;
+#blue,
+h2 {
+  color: rgb(7, 15, 54);
 }
-.right-section>img{
-    margin-left: 50px;
-}
-img{
-max-width: 100%;
-max-height: 100%;
-object-fit: cover;
+.button {
+  height: 300px;
+  width: 300px;
+  padding: 14px 40px;
+  background-image: linear-gradient(45deg, salmon, tomato);
+  text-decoration: none;
+  left: 2px;
+  color: white;
+  border-radius: 5px;
 }
 
-h1{
-    margin: 0;
-    padding: 0;
+/* About part  */
+.l-about-image > img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.download-button {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  border: 1px solid;
+}
+.download-button > div {
+  width: 50%;
+  float: left;
+}
+/* projects parts */
+
+/* }......all projects part */
+.project-part {
+  text-align: center;
+  height: 600px;
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+.single-project {
+  width: 31%;
+  height: 300px;
+  border-radius: 15px;
+  float: left;
+  margin: auto;
+  margin: 0.5rem;
+  padding: 4px;
+  background-color: #fff;
+}
+.imgdiv {
+  height: 45%;
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+}
+.imgdiv > img {
+  width: 100%;
+  height: 100%;
+}
+.imgtext {
+  margin: 20px;
+  height: 45%;
+  width: 90%;
+  text-align: left;
 }
