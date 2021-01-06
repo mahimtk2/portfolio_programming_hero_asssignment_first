@@ -153,7 +153,7 @@ h2 {
   background-color: white;
   position: relative;
 }
-
+/* giving a background for a div */
 .logo-with-button {
   height: 32%;
   width: 70%;
@@ -163,9 +163,10 @@ h2 {
   background-size: 100%;
   background-repeat: no-repeat;
   position: absolute;
+  left: 200px;
   top: 100px;
-  left: 150px;
 }
+/*  sizing the parent div in 2 part in equal */
 .logo-with-button > div {
   height: 50%;
   float: left;
@@ -174,6 +175,7 @@ h2 {
   text-align: center;
   margin-top: 50px;
 }
+/* positioning the hat button */
 .logo-with-button > .chat {
   text-decoration: none;
   vertical-align: middle;
@@ -182,15 +184,32 @@ h2 {
   margin-left: 30px;
 }
 /* social part */
-.social>ul>li{
+/*   footer  social part is start from here  */
+/*   here i am using positiong  */
+.social > ul {
+  position: absolute;
+  left: 40%;
+  bottom: 40px;
+}
+/* selecting list tag and set them in a line  */
+.social > ul > li {
   list-style-type: none;
   display: inline;
   margin: 10px;
 }
-.social>ul>li>a>img{
+/* sizing social image  */
+.social > ul > li > a > img {
   height: 30px;
   width: 30px;
+}
+/*  positioning h2 h3 */
+.footer > h3 {
   position: absolute;
-  left: 200px;
+  left: 44%;
+  bottom: 150px;
+}
+.footer > h2 {
+  position: absolute;
+  left: 38%;
   bottom: 100px;
 }
